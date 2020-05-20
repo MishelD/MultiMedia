@@ -215,8 +215,8 @@ body {
 	padding-bottom: 1vh;
 	font-size: 10pt;
 	color: #7393AD;
-	margin: auto;
+	margin: auto 10px auto auto;
 }
-/*.center {
+.center {
 	margin: auto auto auto 10px;
-}*/
+}
