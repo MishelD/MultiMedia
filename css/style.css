@@ -23,6 +23,7 @@ button {
 body {
 	background-color: #CDE7FF;
 	height: 200vh;
+	overflow-x: hidden;
 }
 .header {
 	width: 100%;
@@ -32,6 +33,7 @@ body {
 	display: flex;
 	position: fixed;
 	top: 0;
+	padding: 0 10px;
 }
 .logo {
 	margin: auto auto auto 10px;
@@ -77,11 +79,14 @@ body {
 	width: 60px;
 	transition: width 1s;
 }
+.search_form:hover {
+	width: 240px;
+}
 .search_form input:focus + .search_form {
 	width: 240px;
 }
 .search_form input:hover, .search_form input:focus {
-	width: 190px;
+	width: 200px;
 }
 
 .page {
